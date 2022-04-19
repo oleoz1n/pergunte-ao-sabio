@@ -1,0 +1,229 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 232, 240);
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+#desenvolvido {
+    width: 300px;
+    height: 80px;
+}
+
+.imgdesenvolvido {
+    margin: 2rem;
+    text-align: center;
+}
+
+.escolhas {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.escolha1 {
+    margin: 1rem;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.escolha2 {
+    margin: 1rem;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+}
+
+.alinharbotao {
+    display: block;
+    text-align: center;
+}
+
+.tentar {
+    display: none;
+    text-align: center;
+}
+
+.p1 {
+    font: 3rem 'DM Sans', sans-serif;
+    text-align: center;
+}
+
+.caio {
+    text-align: center;
+}
+
+.h1_1 {
+    text-align: center;
+}
+
+#botao {
+    background: #1D3F6D;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    width: 20rem;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    stroke: black;
+}
+
+#botao:hover {
+    background: #1C2C42;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+#tentar {
+    background: #1D3F6D;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    width: 20rem;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    stroke: black;
+}
+
+#tentar:hover {
+    background: #1C2C42;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+#esc1 {
+    width: 20rem;
+    height: 2.5rem;
+    border-color: rgb(31, 31, 31);
+    border-radius: 10px;
+    border: none;
+    outline-color: rgb(14, 146, 199);
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#esc2 {
+    width: 20rem;
+    height: 2.5rem;
+    border-color: rgb(31, 31, 31);
+    border-radius: 10px;
+    border: none;
+    outline-offset: 0px;
+    outline-color: rgb(14, 146, 199);
+    font-size: large;
+    font-weight: bold;
+    font-size: 26px;
+    padding-left: 20px;
+}
+
+#caioimg {
+    width: 600px;
+    height: 300px;
+}
+
+#h1_1 {
+    font: 2.4rem 'DM Sans', sans-serif;
+    font-weight: bold;
+}
+
+@media(max-width: 750px) {
+
+    #tentar {
+        background: #1D3F6D;
+        color: #fff;
+        border: 1px solid #eee;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px #eee;
+        text-shadow: none;
+        width: 8.5rem;
+        height: 2rem;
+        font-size: 11px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    #botao {
+        background: #1D3F6D;
+        color: #fff;
+        border: 1px solid #eee;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px #eee;
+        text-shadow: none;
+        width: 8.5rem;
+        height: 2rem;
+        font-size: 11px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .p1 {
+        font: 1.5rem 'DM Sans', sans-serif;
+        text-align: center;
+    }
+
+    #caioimg {
+        width: 300px;
+        height: 150px;
+    }
+
+    #esc1 {
+        width: 8rem;
+        height: 1.6rem;
+        font-size: 15px;
+    }
+
+    #esc2 {
+        width: 8rem;
+        height: 1.6rem;
+        font-size: 15px;
+    }
+
+    #h1_1 {
+        font: 'DM Sans', sans-serif;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    #desenvolvido {
+        width: 150px;
+        height: 40px;
+    }
+}
+
+.c-loader {
+    animation: is-rotating 1s infinite;
+    border: 6px solid #ffffff;
+    border-radius: 50%;
+    border-top-color: #51d4db;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}

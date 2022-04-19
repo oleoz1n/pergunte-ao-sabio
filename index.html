@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pergunte ao Caio</title>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="imagex/png" href="leoz1nIcon.png">
+</head>
+
+<body>
+    <section>
+        <div class="imgdesenvolvido">
+            <img src="desenvolvido.png" alt="desenvolvido" id="desenvolvido">
+        </div>
+        <div class="tudo">
+
+            <div class="caio">
+                <img src="caio2.png" alt="caio" id="caioimg">
+            </div>
+            <div class="h1_1">
+                <h1 id="h1_1"> Faça sua pergunta ao Caio! </h1>
+            </div>
+            <div class="branco">
+                <form id="form" name="form" action="">
+                    <div class="escolhas">
+                        <div class="escolha1"><input type="text" id="esc1" name="nome" class="esc1"
+                                onchange="capturar()">
+                        </div>
+                        <div class="escolha2"><input type="text" id="esc2" name="nome2" class="esc2"
+                                onchange="capturar()">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="alinharbotao">
+                <div class="loading1" style="display:none">
+                    <div class="c-loader"></div>
+                </div>
+                <input type="submit" value="Resultado" id="botao" onclick="expressar(), sumirbotao()">
+            </div>
+            <div class="p1">
+                <p></p>
+            </div>
+            <div class="tentar">
+                <input type="submit" id="tentar" value="Tentar Novamente" onclick="tentar()"></input>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="script.js">
+    </script>
+</body>
+
+</html>
