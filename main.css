@@ -30,14 +30,14 @@ section {
     margin: 1rem;
     padding: 0;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .escolha2 {
     margin: 1rem;
     padding: 0;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .alinharbotao {
