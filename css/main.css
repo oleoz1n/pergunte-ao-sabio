@@ -154,6 +154,18 @@ section {
     font-weight: bold;
 }
 
+.quadrado {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    line-height: 1.5;
+    background-color: #5176db0e;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.185);
+  }
+
 @media(max-width: 750px) {
 
     .quadrado {
@@ -200,7 +212,7 @@ section {
     }
 
     #caioimg {
-        width: 300px;
+        width: 200px;
         height: 150px;
     }
 
@@ -226,6 +238,10 @@ section {
         width: 150px;
         height: 40px;
     }
+    .quadrado {
+        width: 300px;
+        height: 200px;
+    }
 }
 
 .c-loader {
@@ -245,14 +261,80 @@ section {
     }
 }
 
-.quadrado {
-    width: 500px;
-    height: 400px;
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-items: center;
-    line-height: 1.5;
-    background-color: #5176db0e;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.185);
-  }
+@media(max-width: 400px) {
+
+    .quadrado {
+        width: 220px;
+        height: 160px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        line-height: 1.5;
+        background-color: #5176db0e;
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.185);
+      }
+
+    #tentar {
+        background: #1D3F6D;
+        color: #fff;
+        border: 1px solid #eee;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px #eee;
+        text-shadow: none;
+        width: 12rem;
+        height: 2.5rem;
+        font-size: 11px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    #botao {
+        background: #1D3F6D;
+        color: #fff;
+        border: 1px solid #eee;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px #eee;
+        text-shadow: none;
+        width: 15rem;
+        height: 2.5rem;
+        font-size: 11px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .p1 {
+        font: 1.5rem 'DM Sans', sans-serif;
+        text-align: center;
+    }
+
+    #caioimg {
+        width: 200px;
+        height: 150px;
+    }
+
+    #esc1 {
+        width: 8rem;
+        height: 1.6rem;
+        font-size: 15px;
+    }
+
+    #esc2 {
+        width: 8rem;
+        height: 1.6rem;
+        font-size: 15px;
+    }
+
+    #h1_1 {
+        font: 'DM Sans', sans-serif;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    #desenvolvido {
+        width: 150px;
+        height: 40px;
+    }
+    .quadrado {
+        width: 300px;
+        height: 200px;
+    }
+}

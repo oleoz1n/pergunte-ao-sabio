@@ -21,19 +21,28 @@ function expressar() {
     loader.style.display = "none";
     escolhas4.style.display = "grid";
     result.style.display = "block"
-}
+    }
 
 function expressar2() {
+    if (escolhas1.value == "") {
+        alert('nada informado');
+    } 
+    else {
     result.style.display = "none"
     loader.style.display = "block";
     botao.style.display = "none";
     escolhas4.style.display = "none";
     setTimeout(expressar, 2000); 
+    }
 }
 
 
 function sumirbotao() {
-    container.style.display = "none";
+    if (escolhas1.value == "") {
+        escolha1.focus()
+        escolhas2.focus()
+    } 
+    else {container.style.display = "none";
     container3.style.display = "block";
     document.form.nome.disabled = true;
     document.form.nome2.disabled = true;
@@ -42,6 +51,7 @@ function sumirbotao() {
     escolhas2.style.cursor = 'not-allowed';
     escolhas1.style.background = 'white';
     escolhas2.style.background = 'white';
+    }
 }
 
 function tentar () {
